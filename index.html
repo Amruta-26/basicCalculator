@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Try</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div id="main">
+        <div>
+        <h1>Simple Arithmetic Calculator using HTML, CSS & JavaScript</h1>
+        <p>Perform addition, subtraction, multiplication, and division operations on numbers and get the result.</p>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="input"><strong>Equation&nbsp;:&nbsp;&nbsp; </strong></label>
+            <input type="text" id="input" value="(20 * (30 + 10) / (10 * 2))">
+            <br>
+            <input type="button" id="calculateButton" value="Compute Value" onclick="getElementById('result').value = calculate(getElementById('input').value)"/>
+          </div>
+      
+          <br/>
+      
+          <div>
+            <label for="result"><strong>Result :&nbsp;&nbsp;</strong></label>
+            <input type="text" id="result">
+          </div>
+      
+      </div>
+    
+    <script src="calScript.js"></script>
+
+  </body>
+</html>
